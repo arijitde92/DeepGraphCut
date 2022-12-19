@@ -28,7 +28,9 @@ To run the code,
             
             |-------mask
     
-    The data should be in compressed NifTi format (.nii.gz)
+    The data should be in compressed NifTi format (.nii.gz).
+    
+    Create three folders "saved_images", "trained_models" and "DGC_output" which will be used in the next steps.
 2.  Train the model by running train.py
 3.	Evaluate the model by running eval.py. Predicted outputs, probability maps fill be generated in "saved_images" folder.
 4.  Run the graphcut.py code to get the deep graphcut output. The output images will be saved in the folder "DGC_output".
