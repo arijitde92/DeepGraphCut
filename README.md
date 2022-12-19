@@ -11,6 +11,8 @@ Requirements:
 - simpleitk (pip install SimpleITK or conda install -c simpleitk simpleitk)
 - tensorboard (pip install tensorboard or conda install -c conda-forge tensorboard)
 
+Preprocessed data is available at: https://drive.google.com/drive/folders/1Laad-KpxvySlCpyKMrXb_4nH97lNiyR0?usp=share_link
+
 To run the code,
 1.  First download the data and store in a folder called "Data". The directory structure should be like below-
 
