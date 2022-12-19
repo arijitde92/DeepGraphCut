@@ -13,4 +13,5 @@ Requirements:
 
 To run the code,
 1.  Train the model by running train.py
-2.  Run the graphcut.py code to get the deep graphcut output. The output images will be saved in the folder "DGC_output"
+2.	Evaluate the model by running eval.py. Predicted outputs, probability maps fill be generated in "saved_images" folder.
+2.  Run the graphcut.py code to get the deep graphcut output. The output images will be saved in the folder "DGC_output".
