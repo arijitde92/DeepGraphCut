@@ -12,6 +12,23 @@ Requirements:
 - tensorboard (pip install tensorboard or conda install -c conda-forge tensorboard)
 
 To run the code,
-1.  Train the model by running train.py
-2.	Evaluate the model by running eval.py. Predicted outputs, probability maps fill be generated in "saved_images" folder.
-2.  Run the graphcut.py code to get the deep graphcut output. The output images will be saved in the folder "DGC_output".
+1.  First download the data and store in a folder called "Data". The directory structure should be like below-
+
+    Data
+    
+    |------train
+    
+            |-------image
+            
+            |-------mask
+            
+    |------test
+    
+            |-------image
+            
+            |-------mask
+    
+    The data should be in compressed NifTi format (.nii.gz)
+2.  Train the model by running train.py
+3.	Evaluate the model by running eval.py. Predicted outputs, probability maps fill be generated in "saved_images" folder.
+4.  Run the graphcut.py code to get the deep graphcut output. The output images will be saved in the folder "DGC_output".
